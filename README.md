@@ -5,10 +5,11 @@ This is the repository complementing our Paper submitted to the COLING2020 confe
 We provide our used data in the folders "clean_data/" and " traintest_data/". The first contains the cleaned
 and matched verbatim-codes data for all of our 10 thematic data sets. The second contains
 the actually used train/test splits which have been split using a method developed by [1] / [2]
-and implemented by [3]. The original, raw data come from the "Open Ended Coding Project" 
-which accompanied the 2008 ANES survey conducted by [4]. All credit for the initial 
-collection of the open-ended data goes to ANES and the principal investigators: Jon Krosnick,
-Matt Berent and Arthur Lupia.
+and implemented by [3]. 
+
+The original, raw data come from the "Open Ended Coding Project" which accompanied the 2008 
+ANES survey conducted by [4]. All credit for the initial collection of the open-ended data 
+goes to ANES and the principal investigators: Jon Krosnick, Matt Berent and Arthur Lupia.
 
 The creation of the cleaned data sets is described in our Paper. For a quick overview
 on the used method, consider the following: 
@@ -38,6 +39,6 @@ the label distributions, developed by [1]/[2] and implemented by [3] in scikit-m
 
 2. Piotr Szymański, Tomasz Kajdanowicz (2017). Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications, PMLR 74:22-35, 2017. http://proceedings.mlr.press/v74/szyma%C5%84ski17a.html
 
-3. Piotr Szymański, Tomasz Kajdanowicz (2017). A scikit-based Python environment for performing multi-label classification. ArXiv e-prints, 
+3. Piotr Szymański, Tomasz Kajdanowicz (2017). A scikit-based Python environment for performing multi-label classification. ArXiv e-prints. https://arxiv.org/abs/1702.01460
 
 4. The American National Election Studies (ANES). ANES 2008 Time Series Study. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2015-11-10. https://doi.org/10.3886/ICPSR25383.v3
