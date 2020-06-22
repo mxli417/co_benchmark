@@ -51,7 +51,7 @@ def converter_func(input_row_list, mapping_dict, bin_vector_length=30):
     # generate a numpy array of zeros of length bin_vector_length
     binarized_vector = np.zeros(bin_vector_length)
 
-    # only for crosscheck with Matthias: print input
+    # only for crosscheck with xxxx: print input
     # print("Input original form: {}".format(input_row_list))
 
     # check if input is just a single integer
@@ -101,7 +101,7 @@ def converter_func(input_row_list, mapping_dict, bin_vector_length=30):
                         raise NameError("Value unknown in mapping dict!")
     # finally return the binarized vector
     binarized_vector = binarized_vector.astype(int)  # integerize the vector, only integers
-    # only for crosscheck with Matthias: print input
+    # only for crosscheck with xxx: print input
     # print("converted input: {}".format(binarized_vector))
     return binarized_vector
 
