@@ -11,7 +11,7 @@ The original, raw data come from the "Open Ended Coding Project" which accompani
 ANES survey conducted by [4]. All credit for the initial collection of the open-ended data 
 goes to ANES and the principal investigators: Jon Krosnick, Matt Berent and Arthur Lupia.
 The raw original data can be obtained via the ANES-website for the ["Open Ended Coding Project"](https://electionstudies.org/2008-open-ended-coding-project/)
-and the ["2008 Time Series Study"](https://electionstudies.org/data-center/2008-time-series-study/).
+and the ["2008 Time Series Study - Redacted Open Ends"](https://electionstudies.org/data-center/2008-time-series-study/).
 
 The creation of the cleaned data sets is described in our Paper. For a quick overview
 on the used method, consider the following: 
