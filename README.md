@@ -1,6 +1,6 @@
-# Repository for the COLING2020 Paper: "Multi-label classification with pre-trained language models"
+# Repository for the Paper: "A new benchmark for NLP in Social Sciences: Evaluating the usefulness of pre-trained language models for classifying open-ended survey responses"
 
-This is the repository complementing our Paper submitted to the COLING2020 conference. 
+This is the repository complementing our Paper submitted to the ICAART conference. 
 
 We provide our used data in the folders "clean_data/" and " traintest_data/". The first contains the cleaned
 and matched verbatim-codes data for all of our 10 thematic data sets. The second contains
@@ -13,7 +13,7 @@ goes to ANES and the principal investigators: Jon Krosnick, Matt Berent and Arth
 The original raw data can be obtained via the ANES-website for the ["Open Ended Coding Project"](https://electionstudies.org/2008-open-ended-coding-project/)
 and the ["2008 Time Series Study"](https://electionstudies.org/data-center/2008-time-series-study/).
 
-The creation of the cleaned data sets is described in our Paper. For a quick overview
+The creation of the cleaned data sets is described in our paper. For a quick overview
 on the used method, consider the following: 
 
 In order to generate data sets usable for multi-label learning from the files distributed 
