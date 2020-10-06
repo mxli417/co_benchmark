@@ -45,10 +45,13 @@ the label distributions, developed by [1]/[2] and implemented by [3] in scikit-m
 
 4. The American National Election Studies (ANES). ANES 2008 Time Series Study. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2015-11-10. https://doi.org/10.3886/ICPSR25383.v3
 
+5. Card, Dallas; Smith, Noah (2015). Automated Coding of Open-Ended Survey Responses. Research Paper. https://www.ml.cmu.edu/research/dap-papers/DAP_Card.pdf
 
 ## Preliminary Leaderboard: 
 
-Authors | Score | Dataset-ID | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
---------|------------|------------|---|---|---|---|---|---|---|---|---|---|
-Card/Smith (2015)| F1 (sample-based) |0.55|0.67|0.71|0.71|0.81|0.86|0.94|0.96|0.93|0.96|
+All reported scores refer to the sample-based F1 described in [5].
+
+Authors | Dataset-ID | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+--------|------------|---|---|---|---|---|---|---|---|---|---|
+Card/Smith (2015)| |0.55|0.67|0.71|0.71|0.81|0.86|0.94|0.96|0.93|0.96|
 
