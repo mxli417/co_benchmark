@@ -35,6 +35,21 @@ data sets are transformed by using this function. For the latter application of 
 we split the data into train and test set (90/10) using an iterative stratification method for balancing
 the label distributions, developed by [1]/[2] and implemented by [3] in scikit-multilearn.
 
+## Preliminary Leaderboard: 
+
+Below, we report the results previously achieved by [5]. Additionally, we describe
+the results obtained by the different multi-label classification transfer-learning models 
+we used. All reported scores refer to the sample-based F1 described in [5].
+
+Authors | Dataset-ID | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+--------|------------|---|---|---|---|---|---|---|---|---|---|
+Card/Smith (2015)| |0.55|0.67|0.71|0.71|0.81|0.86|0.94|0.96|0.93|0.96|
+Baseline|0.44|0.51|0.57|0.54|0.68|0.88|0.92|0.95|0.90|0.91|
+BERT |0.00|0.02|0.44|0.35|0.41|0.79|0.94|0.95|0.91|0.93|
+RoBERTa |0.00|0.00|0.56|0.55|0.57|0.85|0.95|0.97|0.93|0.94|
+XLNet |0.00|0.00|0.54|0.58|0.55|0.86|0.96|0.98|0.91|0.92|
+
+
 ## Literature:
  
 1. Sechidis, K., Tsoumakas, G., & Vlahavas, I. (2011). On the stratification of multi-label data. Machine Learning and Knowledge Discovery in Databases, 145-158. http://lpis.csd.auth.gr/publications/sechidis-ecmlpkdd-2011.pdf
@@ -47,11 +62,4 @@ the label distributions, developed by [1]/[2] and implemented by [3] in scikit-m
 
 5. Card, Dallas; Smith, Noah (2015). Automated Coding of Open-Ended Survey Responses. Research Paper. https://www.ml.cmu.edu/research/dap-papers/DAP_Card.pdf
 
-## Preliminary Leaderboard: 
-
-All reported scores refer to the sample-based F1 described in [5].
-
-Authors | Dataset-ID | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
---------|------------|---|---|---|---|---|---|---|---|---|---|
-Card/Smith (2015)| |0.55|0.67|0.71|0.71|0.81|0.86|0.94|0.96|0.93|0.96|
 
