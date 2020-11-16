@@ -1,13 +1,13 @@
-# Repository for the Paper: "A new benchmark for NLP in Social Sciences: Evaluating the usefulness of pre-trained language models for classifying open-ended survey responses"
+# "A new benchmark for NLP in Social Sciences: Evaluating the usefulness of pre-trained language models for classifying open-ended survey responses"
 
-This is the repository complementing our Paper submitted to the ICAART conference. 
+This repository complements our Paper (soon to be) published at ICAART 2021. 
 
 We provide our used data in the folders "clean_data/" and " traintest_data/". The first contains the cleaned
 and matched verbatim-codes data for all of our 10 thematic data sets. The second contains
 the actually used train/test splits which have been split using a method developed by [1] / [2]
 and implemented by [3]. We also provide the used python-code under "src/". 
 
-The original, raw data come from the "Open Ended Coding Project" which accompanied the 2008 
+The original, raw data comes from the "Open Ended Coding Project" which accompanied the 2008 
 ANES survey conducted by [4]. All credit for the initial collection of the open-ended data 
 goes to ANES and the principal investigators: Jon Krosnick, Matt Berent and Arthur Lupia.
 The original raw data can be obtained via the ANES-website for the ["Open Ended Coding Project"](https://electionstudies.org/2008-open-ended-coding-project/)
