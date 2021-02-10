@@ -1,6 +1,6 @@
 # "A new benchmark for NLP in Social Sciences: Evaluating the usefulness of pre-trained language models for classifying open-ended survey responses"
 
-This repository complements our Paper published at ICAART 2021. 
+This repository complements our [Paper published at ICAART 2021](https://doi.org/10.5220/0010255108660873). 
 
 We provide our used data in the folders "clean_data/" and " traintest_data/". The first contains the cleaned
 and matched verbatim-codes data for all of our 10 thematic data sets. The second contains
